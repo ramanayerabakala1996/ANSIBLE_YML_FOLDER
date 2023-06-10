@@ -1,5 +1,7 @@
 ---
 - hosts: all
+  gather_facts: yes
+  become: yes
   tasks:
   - name: i want to install web server on ubuntu node
     apt:
