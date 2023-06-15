@@ -16,4 +16,4 @@
   - name: i want to copy index.j2 file into node side
     template:
        src: myindex.j2
-       dest:  /var/www/html/index.html)
+       dest:  /var/www/html/index.html
